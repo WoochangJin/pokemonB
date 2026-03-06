@@ -26,4 +26,7 @@ public class PokemonController {
     // DB에 저장된 모든 포켓몬(id, koName, enName) 목록을 반환합니다.
     return pokemonService.getAllPokemonNames();
   }
+
+  @GetMapping("/pokeInfo")
+  public
 }
