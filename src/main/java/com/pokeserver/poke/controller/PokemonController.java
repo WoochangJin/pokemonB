@@ -27,6 +27,4 @@ public class PokemonController {
     return pokemonService.getAllPokemonNames();
   }
 
-  @GetMapping("/pokeInfo")
-  public
 }

@@ -21,4 +21,7 @@ public class  Pokemon {
   private String koName;
 
   private String enName;
+
+  private String type1;
+  private String type2;
 }
