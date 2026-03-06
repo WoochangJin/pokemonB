@@ -18,7 +18,8 @@ public class SecurityConfig {
           // [수정] 프론트엔드 배포 주소와 로컬 주소를 모두 허용합니다.
           config.setAllowedOrigins(java.util.List.of(
               "http://localhost:5173",
-              "https://your-frontend-url.onrender.com" // 배포 후 생길 프론트 주소 입력
+              "https://pokecalcul.netlify.app", // 배포 후 생길 프론트 주소 입력
+              "https://poke.wgrathpe.org"
           ));
           config.setAllowedMethods(java.util.List.of("GET", "POST", "PUT", "DELETE"));
           config.setAllowedHeaders(java.util.List.of("*"));
